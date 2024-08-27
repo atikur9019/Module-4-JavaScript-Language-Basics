@@ -38,12 +38,16 @@ var job, isMarried;
 job = 'Software engineer';
 isMarried = false;
 
-console.log(firstName + ' is a ' + age + ' year old '+ 'He is a ' + job + ' .' +' is he married? ' +'No, ' + isMarried);
+alert(firstName + ' is a ' + age + ' year old '+ 'He is a ' + job + ' .' +' is he married? ' +'No, ' + isMarried);
 
 // variable Mutation
 
 age = 'twenty six';
 job = 'Software engineer';
 
-console.log(firstName +'is a'+ age +'year old. '+ job +'. Is he married? ' + isMarried);
+console.log(firstName +'is a'+ age +'year old  '+ job +'. Is he married? ' + isMarried);
+
+var lastName = prompt('What is your last name')
+
+console.log(firstName + ' ' + lastName);
 
