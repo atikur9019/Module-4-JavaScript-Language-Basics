@@ -25,3 +25,9 @@ console.log(job);
 // -undefined
 // -null
 */
+
+console.log('Hello Word');
+
+var firstName = 'Atikur';
+console.log(typeof firstName);
+
