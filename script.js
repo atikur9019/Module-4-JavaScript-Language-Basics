@@ -26,8 +26,16 @@ console.log(job);
 // -null
 */
 
-console.log('Hello Word');
-
 var firstName = 'Atikur';
-console.log(typeof firstName);
+var age = 14;
+
+// console.log(firstName + ' ' + age);
+
+var job, isMarried;
+
+job = 'Software engineer';
+isMarried = false;
+
+console.log(firstName + ' is a ' + age + ' year old. '+ 'He is a ' + job + ' .' +' is he married? ' +'No, ' + isMarried);
+
 
