@@ -29,13 +29,21 @@ console.log(job);
 var firstName = 'Atikur';
 var age = 14;
 
-// console.log(firstName + ' ' + age);
+console.log(firstName + ' ' + age);
+
+// variable Type Coercion
 
 var job, isMarried;
 
 job = 'Software engineer';
 isMarried = false;
 
-console.log(firstName + ' is a ' + age + ' year old. '+ 'He is a ' + job + ' .' +' is he married? ' +'No, ' + isMarried);
+console.log(firstName + ' is a ' + age + ' year old '+ 'He is a ' + job + ' .' +' is he married? ' +'No, ' + isMarried);
 
+// variable Mutation
+
+age = 'twenty six';
+job = 'Software engineer';
+
+console.log(firstName +'is a'+ age +'year old. '+ job +'. Is he married? ' + isMarried);
 
