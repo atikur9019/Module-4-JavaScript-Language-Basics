@@ -1,5 +1,5 @@
 // console.log('Hello Word')
-var firstName = 'Atikur';
+/**var firstName = 'Atikur';
 console.log(typeof firstName);
 
 var lastName = 'Rhaman';
@@ -24,3 +24,4 @@ console.log(job);
 // -Boolean
 // -undefined
 // -null
+*/
