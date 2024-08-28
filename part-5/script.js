@@ -7,12 +7,17 @@ var yearAtikur = 2009;
 var fullAge = 14;
 // Multiple Operators
 var isFullAge = now - yearAtikur >= fullAge;
-// console.log(isFullAge);
+console.log(isFullAge);
 
-if (isFullAge >= 18) {
-    console.log("Eligible to open an Atikur Shortsi account");
-}
-else{
-    console.log("Atikur is not eligible to open a Shortsi account");
+var ageAtikur = now - yearAtikur;
+var ageRahim = 30;
 
-}
+// Grouping
+var average = (ageAtikur + ageRahim) / 2;
+console.log(average);
+
+var x, y;
+x = y = (2 + 3) * 6 / 2;
+
+console.log(x, y);
+
