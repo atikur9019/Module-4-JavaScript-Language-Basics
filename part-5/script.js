@@ -21,3 +21,11 @@ x = y = (2 + 3) * 6 / 2;
 
 console.log(x, y);
 
+x = x + 10;
+
+console.log(x);
+
+
+
+
+
